@@ -3,10 +3,8 @@
 """
 
 import json
-
 import pytest
 from selenium.webdriver import Chrome, Firefox
-
 from .data import Data as D
 
 CONFIG_PATH = D.Rep1 + 'config.json'
